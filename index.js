@@ -12,6 +12,6 @@ client.on("error", err => {
 
 client.on("message", chatter => {
   if (chatter.message) {
-    //execute logic here
+    console.log(`${chatter.message}`);
   }
 });
